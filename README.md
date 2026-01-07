@@ -152,6 +152,8 @@ Grad-CAM heatmaps are generated for both correct and incorrect predictions to un
 
 ## 🔧 Limitations & Future Improvements
 
+### Current Limitations
+Only 5000 images in the dataset, limited augmentation, all layers are froze;hence no fine tuning
 
 ### Potential Improvements
 

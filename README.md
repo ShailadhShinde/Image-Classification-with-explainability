@@ -1,4 +1,4 @@
-# Image Classification with Explainability: Animal Classifier
+# Image Classification with Explainability
 
 A deep learning project that classifies images of cats, dogs, and horses using transfer learning and provides visual explanations of model predictions through Grad-CAM.
 
@@ -140,84 +140,28 @@ The project uses **Gradient-weighted Class Activation Mapping (Grad-CAM)** to vi
 Grad-CAM heatmaps are generated for both correct and incorrect predictions to understand model behavior.
 
 #### Sample Predictions
-
-![Sample Correct Predictions](https://github.com/ShailadhShinde/Image-Classification-with-explainability/blob/main/Correct%20Predictions%20few%20examples.JPG)
 *Examples of correctly classified images*
 
-![Sample Incorrect Predictions](https://github.com/ShailadhShinde/Image-Classification-with-explainability/blob/main/INCORRECT%20predictions%20few%20examples.JPG)
+![Sample Correct Predictions](https://github.com/ShailadhShinde/Image-Classification-with-explainability/blob/main/Correct%20Predictions%20few%20examples.JPG)
+
 *Examples of misclassified images*
+
+![Sample Incorrect Predictions](https://github.com/ShailadhShinde/Image-Classification-with-explainability/blob/main/INCORRECT%20predictions%20few%20examples.JPG)
 
 ---
 
 ## 🔧 Limitations & Future Improvements
 
-### Current Limitations
-
-- Small dataset may limit generalization
-- Only 3 classes from CIFAR-10
-- Basic data augmentation
-- Single model architecture tested
 
 ### Potential Improvements
 
-- [ ] Increase dataset size within 5,000 image constraint
-- [ ] Advanced augmentations (color jitter, random erasing, CutMix)
+- [ ] Increase dataset size 
+- [ ] Advanced augmentations  inorder to work with 
 - [ ] Test other architectures (ResNet50, EfficientNet, MobileNetV2)
 - [ ] Unfreeze more layers for fine-tuning
 - [ ] Implement learning rate scheduling
 - [ ] Add early stopping mechanism
 - [ ] Ensemble multiple pre-trained models
 - [ ] Explore additional explainability methods (LIME, SHAP)
-- [ ] Extend to more animal classes
 
 ---
-
-## 📁 Project Structure
-
-```
-animal-classifier/
-│
-├── train.py              # Main training script
-├── model.py              # Model definition and Grad-CAM implementation
-├── dataset.py            # Dataset loading and preprocessing
-├── utils.py              # Utility functions for visualization
-├── requirements.txt      # Python dependencies
-├── README.md            # This file
-│
-├── results/             # Output directory for visualizations
-│
-└── checkpoints/         # Saved model weights
-    └── best_model.pth
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Open issues for bugs or feature requests
-- Submit pull requests with improvements
-- Share ideas for better explainability methods
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- CIFAR-10 dataset by Alex Krizhevsky
-- PyTorch team for the excellent deep learning framework
-- ResNet architecture by He et al.
-- Grad-CAM paper by Selvaraju et al.
-
----
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue or reach out via email.
-
-**Happy Classifying! 🐱🐶🐴**

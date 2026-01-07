@@ -25,42 +25,25 @@ numpy
 matplotlib
 scikit-learn
 ```
+## 🚀 Installation & Running
 
-### Installation & Running
+### Google Colab (Recommended - Free GPU)
 
-#### Option 1: Local Machine (with GPU recommended)
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Click `File` → `Open notebook` → `GitHub` tab
+3. Enter repository: `https://github.com/ShailadhShinde/Image-Classification-with-explainability`
+4. Select `image-classification.ipynb`
+5. Enable GPU: `Runtime` → `Change runtime type` → Select `GPU`
+6. Run all cells
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/animal-classifier.git
-cd animal-classifier
-```
-
-2. **Install dependencies**
-```bash
-pip install torch torchvision numpy matplotlib scikit-learn
-```
-
-3. **Run the training script**
-```bash
-python train.py
-```
-
-**Note:** GPU is highly recommended for faster training. The code automatically detects and uses CUDA if available.
-
-#### Option 2: Google Colab (Free GPU)
-
-1. Upload the notebook to [Google Colab](https://colab.research.google.com/)
-2. Enable GPU: `Runtime` → `Change runtime type` → Select `GPU`
-3. Run all cells in order
-
-#### Option 3: Kaggle Notebooks (Free GPU)
+### Kaggle Notebooks (Free GPU)
 
 1. Go to [Kaggle Notebooks](https://www.kaggle.com/code)
-2. Create a new notebook and upload the code
-3. Enable GPU: `Settings` → `Accelerator` → Select `GPU`
-4. Run all cells
-
+2. Click `New Notebook` → `File` → `Import Notebook`
+3. Enter repository: `https://github.com/ShailadhShinde/Image-Classification-with-explainability`
+4. Select `image-classification.ipynb`
+5. Enable GPU: `Settings` → `Accelerator` → Select `GPU T4 x2`
+6. Run all cells
 ---
 
 ## 📊 Dataset

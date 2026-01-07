@@ -44,7 +44,10 @@ scikit-learn
 4. Select `image-classification.ipynb`
 5. Enable GPU: `Settings` → `Accelerator` → Select `GPU T4 x2`
 6. Run all cells
+
+**Note:** The notebook takes approximately ~5 minutes to run completely with GPU enabled. The trained model will be saved and can be downloaded after execution completes.
 ---
+
 
 ## 📊 Dataset
 
